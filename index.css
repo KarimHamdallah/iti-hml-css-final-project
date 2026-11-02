@@ -111,6 +111,14 @@ header img
     text-align: center;
 }
 
+.second-section-top img
+{
+    padding: 6px;
+    border: 3px solid #4FC3F7;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(79, 195, 247, 0.4);
+}
+
 .gradient-text
 {
     background-image: linear-gradient(to right, #51C3F6, #ECF8FE);
@@ -385,6 +393,7 @@ header img
     font-size: 1.3rem;
     font-weight: 700;
     color: #c2c2c2;
+    margin-bottom: 8px;
     transition: color 0.3s;
 }
 
@@ -410,6 +419,41 @@ header img
 .projects-section-grid-part:hover img
 {
     transform: scale(1.04);
+}
+
+.project-card-bottom
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.project-arrow
+{
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: #4FC3F7;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.project-arrow i
+{
+    transform: rotate(-45deg);
+    transition: transform 0.3s;
+}
+
+.project-arrow:hover i
+{
+    transform: rotate(0deg);
 }
 
 .projects-section-button
